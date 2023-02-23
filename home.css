@@ -1,0 +1,81 @@
+body {
+    background-image: url("https://acegif.com/wp-content/uploads/solar-system-8.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    font-style: italic;
+}
+
+p {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+#menu {
+    font-size: 25px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0px 0px 0px;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: rgb(241, 233, 233);
+    font-size: 25px;
+    font-weight: 500;
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    border-bottom: 1.5px solid transparent;
+    /*transition: all 0.3s ease;*/
+}
+
+nav ul li a:active,
+nav ul li a:hover {
+    border-color: red;
+    color: red;
+}
+
+nav .menu-btn i {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.active {
+    color: red;
+}
+
+
